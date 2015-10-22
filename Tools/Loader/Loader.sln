@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loader", "Loader\Loader.vcxproj", "{D3E28B1C-41B6-4771-A093-39B282269B6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll", "dll\dll.vcxproj", "{03340323-641C-4BB1-9496-4BC82EA402F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hooker", "hooker\hooker.vcxproj", "{7FF265C6-990A-421F-86C2-B17E81023B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E28B1C-41B6-4771-A093-39B282269B6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3E28B1C-41B6-4771-A093-39B282269B6C}.Debug|Win32.Build.0 = Debug|Win32
+		{D3E28B1C-41B6-4771-A093-39B282269B6C}.Release|Win32.ActiveCfg = Release|Win32
+		{D3E28B1C-41B6-4771-A093-39B282269B6C}.Release|Win32.Build.0 = Release|Win32
+		{03340323-641C-4BB1-9496-4BC82EA402F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03340323-641C-4BB1-9496-4BC82EA402F5}.Debug|Win32.Build.0 = Debug|Win32
+		{03340323-641C-4BB1-9496-4BC82EA402F5}.Release|Win32.ActiveCfg = Release|Win32
+		{03340323-641C-4BB1-9496-4BC82EA402F5}.Release|Win32.Build.0 = Release|Win32
+		{7FF265C6-990A-421F-86C2-B17E81023B92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FF265C6-990A-421F-86C2-B17E81023B92}.Debug|Win32.Build.0 = Debug|Win32
+		{7FF265C6-990A-421F-86C2-B17E81023B92}.Release|Win32.ActiveCfg = Release|Win32
+		{7FF265C6-990A-421F-86C2-B17E81023B92}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
