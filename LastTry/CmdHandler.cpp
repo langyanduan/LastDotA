@@ -1,6 +1,12 @@
 #include "Common.h"
 #include <tchar.h>
 
+#include <Windows.h>
+#include <stdio.h>
+int (WINAPIV * __snprintf)(char *, size_t, const char*...) = _snprintf;
+int (WINAPIV * _sprintf)(char *, const char*...) = sprintf;
+int (WINAPIV * _sscanf)(const char *, const char*...) = sscanf;
+
 CCmdHandler::CCmdHandler(CUnitManager * pUnitManager, TCHAR * mailslotName)
     : m_pUnitManager(pUnitManager),
       m_bExitThread(FALSE),
