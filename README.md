@@ -1,3 +1,3 @@
 # LastDotA
-Application for DotA
 
+MapHack for DotA with D3D hook
